@@ -293,7 +293,11 @@ button.owl-next {
 
 }
 
-@media screen and (max-width:1200px){
+
+
+  
+
+@media only screen and (max-width:1200px){
   .mobile_bar {
     display: block;
   }
@@ -301,8 +305,12 @@ button.owl-next {
   #navbarNav {
     display: none;
   }
-   .elem12{
+
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px){
+  .elem12{
     padding: 20px 40px;
   }
-
 }
