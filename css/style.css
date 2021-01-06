@@ -301,6 +301,8 @@ button.owl-next {
   #navbarNav {
     display: none;
   }
-  
+   .elem12{
+    padding: 0px 20px;
+  }
 
 }
