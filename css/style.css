@@ -314,3 +314,27 @@ button.owl-next {
     padding: 20px 40px;
   }
 }
+
+@media (max-width: 768px){
+    img.organizer_imga4 {
+      width: 41%;
+  }
+
+
+    .footer_two {
+      width: 50%;
+  }
+
+    .footer_three {
+      width: 50%;
+  }
+
+  button.btn_emai_sub{
+    width: 18%;
+  }
+
+  input#email {
+    width: 80%;
+  }
+
+}
