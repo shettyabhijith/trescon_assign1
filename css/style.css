@@ -276,7 +276,7 @@ button.owl-next {
 
 @media screen and (max-width: 992px){
   .elem12{
-    padding: 70px;
+    padding: 300px 20px;
   }
 
   /* .testim_side_52{
@@ -300,6 +300,10 @@ button.owl-next {
 
   #navbarNav {
     display: none;
+  }
+  
+   .elem12{
+    padding: 70px;
   }
 
 }
