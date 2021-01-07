@@ -8,13 +8,18 @@ body {
 .trescon-navbar .main_menu li a {
   color: #000;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
 }
 
+a.nav-link {
+  padding: 5px 20px !important;
+}
+
+
 nav {
   background: #f4fafa;
-  padding: 32px !important;
+  padding: 20px !important;
 }
 
 /*  banner section */
@@ -49,7 +54,7 @@ nav {
 
 .title-section {
   display: table;
-  height: 84%;
+  height: 100%;
   font-weight: 800;
   font-size: 30px;
 }
@@ -62,13 +67,18 @@ nav {
 
 a.know_more {
   display: block;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 100;
   color: white;
   background: black;
-  padding: 4px 8px;
+  padding: 5px 8px;
   width: fit-content;
   margin-top: 15px;
+  letter-spacing: 0.5px;
+}
+
+img.trescon_header_img1 {
+  width: 80%;
 }
 
 
@@ -82,19 +92,17 @@ p.what_is_trescon {
 }
 
 p.abt_tesc1a {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 p.abt_tesc2a {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .testiomonial {
   background: #f4fafa;
   text-align: center;
-  
   z-index: -2;
- 
 }
 
 .testim_layout{
@@ -104,20 +112,27 @@ p.abt_tesc2a {
   padding-bottom: 50px;
 }
 
-
-
 .trescon1a{
   padding-top: 8px;
 }
 
 .header-image {
-  margin-top: 14%;
+  margin-top: 5%;
+  margin-left: -8%;
+}
+
+img.banner_img124 {
+  width: 96% !important;
 }
 
 .elem12{
-  padding: 70px 170px;
-}
+  padding: 64px 170px;
+} 
 
+.text-section {
+  padding-top: 25px;
+}
+ 
 .aboutus-area {
   background: rgb(244, 250, 250);
   position: relative;
@@ -126,12 +141,11 @@ p.abt_tesc2a {
 
 .side_1_img_box {
   position: absolute;
-  /* z-index: 9; */
   bottom: 10%;
 }
 
 img.side_page1 {
-  width: 151px;
+  width: 161px;
 
 }
 
@@ -279,18 +293,17 @@ button.btn_emai_sub {
 
 .business_opportunity{
   color: transparent;
-  font-size: 40px;
+  font-size: 47px;
  font-style: italic;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
   font-family: sans-serif;
   FONT-WEIGHT: 600;
 }
 
 .explore_new {
   color: black;
-    font-size: 40px;
+    font-size: 47px;
     font-style: italic;
     font-weight: bolder;
     font-family: sans-serif;
@@ -329,12 +342,12 @@ button.owl-next {
 
 @media screen and (max-width: 992px){
   .elem12{
-    padding: 300px 0px;
+    padding: 150px 0px 80px;
   }
 
-  /* .testim_side_52{
-    height: 30px;
-  } */
+  .side_1_img_box{
+    bottom: 0%;
+  }
 
   .footer_common{
     padding-top: 30px;
