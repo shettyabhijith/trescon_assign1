@@ -297,7 +297,6 @@ button.btn_emai_sub {
 
 }
 
-
 i.fa.fa-bars.mbl_bar {
   font-size: 25px;
   margin-top: 10px;
@@ -312,24 +311,20 @@ button.owl-prev {
   position: absolute;
   top: 22%;
   left: 0%;
-  padding: 0px 5px 5px 5px !important;
+  padding: 0px 2px 5px 2px !important;
   background: #f3f3f3 !important;
   font-size: 41px !important;
   /* width: 10px; */
 }
-
 
 button.owl-next {
   position: absolute;
   top: 22%;
   right: 0%;
-  padding: 0px 5px 5px 5px !important;
+  padding: 0px 2px 5px 2px !important;
   background: #f3f3f3 !important;
   font-size: 41px !important;
-  /* width: 10px; */
 }
-
-
 
 
 @media screen and (max-width: 992px){
