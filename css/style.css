@@ -223,7 +223,7 @@ p.testim_name1 {
 
 .testim_side_image_layout {
   position: absolute;
-  right: -26.98%;
+  right: -26.5%;
   bottom: -34%;
   z-index: 0;
 }
@@ -352,7 +352,7 @@ button.owl-next {
 
 @media screen and (max-width: 992px){
   .elem12{
-    padding: 150px 0px 80px;
+    padding: 20px 0px 80px;
   }
 
   .side_1_img_box{
@@ -367,9 +367,6 @@ button.owl-next {
     margin-bottom: 5px;
   }
 
-  img.page_bg_2 {
-    width: 172px;
-  }
 }
 
 @media screen and (max-width:1200px){
@@ -417,4 +414,24 @@ button.owl-next {
     padding: 20px;
   }
 
+  .explore_new{
+    font-size: 27px;
+  }
+
+  .business_opportunity{
+    font-size: 27px;
+  }
+
+  .banner-content{
+    padding: 20px;
+  }
+
+  .testim_side_image_layout{
+    bottom: -20%;
+  }
+
+  
+  img.page_bg_2 {
+    width: 160px;
+  }
 }
